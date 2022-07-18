@@ -28,3 +28,24 @@ const test=(e)=>{
     }
    
 }
+const submit = ()=>{
+    let firstplayer=p1.value;
+    let secondplayer=p2.value;
+if(p1.value==""&& p2.value ==""){
+    alert("die")
+}
+else if(p1.value ==""){
+    p1.className="border border-2 border-secondary"
+    alert("ght")
+}
+else if(p2.value ==""){
+    p2.className=" border border-2 border-secondary"
+    alert("ght")
+}
+else{
+    name1.innerText==     firstplayer
+    name2.innerText==     secondplayer
+    p1=""
+    p2=""
+}
+}
